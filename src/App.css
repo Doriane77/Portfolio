@@ -1,8 +1,3 @@
-@import "./Content/Contact/Contact.css";
-@import "./Content/Creation/Creation.css";
-@import "./Content/Home/Home.css";
-@import "./Content/SitePage/SitePage.css";
-
 @import "./Components/AllWebSite/AllWebSite.css";
 @import "./Components/Competence/Competence.css";
 @import "./Components/Footer/Footer.css";
@@ -12,6 +7,11 @@
 @import "./Components/MoreInfo/MoreInfo.css";
 @import "./Components/Presentation/Presentation.css";
 @import "./Components/Site/Site.css";
+
+@import "./Content/Contact/Contact.css";
+@import "./Content/Creation/Creation.css";
+@import "./Content/Home/Home.css";
+@import "./Content/SitePage/SitePage.css";
 
 :root {
   --principal-color: #0f191e;
