@@ -1,0 +1,114 @@
+.ContactColor {
+  background-color: var(--principal-color);
+  color: white;
+}
+.ContactMoreInfo {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 140px 0;
+  justify-content: space-between;
+}
+.MoreInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.MoreInfo h1 {
+  /* background-color: lightcoral; */
+  width: 200px;
+  margin: auto;
+  font-size: 80px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  line-height: 50px;
+  font-family: MonteCarlo;
+  transform: rotate(-15deg);
+}
+.MoreInfo div,
+.ContactForm button {
+  background-color: #ff3740;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 130px 0 40px 0;
+  font-size: 25px;
+  padding: 25px;
+  border-radius: 5px;
+}
+.MoreInfo :nth-child(3),
+.MoreInfo :nth-child(4) {
+  /* background-color: pink; */
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+}
+.MoreInfo :nth-child(4) {
+  font-size: 15px;
+  opacity: 0.7;
+  /* font-family: monospace; */
+}
+.ContactForm {
+  width: 40%;
+  /* background-color: lightseagreen; */
+  padding: 40px 0;
+}
+.ContactForm div {
+  /* background-color: pink; */
+  display: flex;
+
+  /* flex-direction: column; */
+}
+.ContactForm input,
+.ContactForm > input,
+.ContactForm textarea {
+  /* background-color: red; */
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.ContactForm > input {
+  /* background-color: aqua; */
+  box-sizing: border-box;
+  width: 100%;
+}
+.ContactForm div :nth-child(1) {
+  /* background-color: palevioletred; */
+  margin-right: 10px;
+}
+.ContactForm input {
+  /* background-color: yellow; */
+  flex: 1;
+  padding: 10px;
+}
+.ContactForm > textarea {
+  /* background-color: purple; */
+  width: 100%;
+  height: 250px;
+  box-sizing: border-box;
+  margin: 1px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.ContactForm button {
+  background-color: #ff3740;
+  color: white;
+  width: 130px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  /* margin: 0px; */
+  margin: auto;
+}
+.ContactForm p,
+.ContactForm button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+.AllWebSite {
+  /* background-color: darkcyan; */
+  overflow: hidden;
+  width: 420px;
+  height: 250px;
+  margin: 10px;
+  /* animation: WebSiteAll 0.5s forwards; */
+}
+/* @keyframes WebSiteAll {
+  0% {
+    width: 30%;
+  }
+  100% {
+    width: 25%;
+  }
+} */
+.AllWebSite:hover {
+  cursor: pointer;
+}
+
+.AllWebSite > img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  border-radius: 10px;
+}

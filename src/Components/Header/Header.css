@@ -1,0 +1,52 @@
+.box-Header {
+  /* background-color: pink; */
+  width: 100%;
+  /* align-items: center; */
+  border-bottom: 0px solid rgb(235, 235, 235);
+  box-shadow: 0px 0px 2px 0px;
+}
+
+.Header {
+  /* background-color: orange; */
+  /* background-color: #716060; */
+  background-color: var(--principal-color);
+  display: flex;
+  /* width: 87%; */
+  height: 80px;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+  /* padding-top: 20px; */
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-white);
+}
+.Header > h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: "Daybury";
+}
+.Header > nav {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+.Header > nav > ul {
+  /* background-color: blueviolet; */
+  font-size: 18px;
+  width: 120px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Header > nav > ul:hover {
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.nav-home {
+  margin-right: 20px;
+}
+.nav-home:hover {
+  font-size: 23px;
+  cursor: pointer;
+}

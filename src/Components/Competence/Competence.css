@@ -1,0 +1,12 @@
+.Competence {
+  width: 122px;
+  height: 100px;
+}
+.Competence:hover {
+  cursor: pointer;
+}
+.Competence img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
