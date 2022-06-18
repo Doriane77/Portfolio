@@ -1,0 +1,46 @@
+.BoxSite {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+}
+.BoxSite > h2 {
+  color: var(--text-dark);
+  font-size: 40px;
+  margin: 20px;
+}
+.BoxDescription {
+  /* background-color: lightslategrey; */
+  display: flex;
+  width: 85%;
+  /* height: 410px; */
+  /* box-sizing: border-box; */
+  padding: 20px 0;
+}
+.Description {
+  /* background-color: blueviolet; */
+  /* height: 100%; */
+  padding: 20px;
+}
+.Description h2 {
+  color: var(--text-dark);
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.Description p {
+  color: var(--text-dark);
+  font-size: 22px;
+  padding-bottom: 12px;
+}
+.Description > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.useLanguages {
+  /* background-color: lightcoral; */
+  display: flex;
+  margin: 20px;
+}
